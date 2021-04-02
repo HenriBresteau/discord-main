@@ -221,3 +221,30 @@ img {
   grid-column: span var(--num-of-grid-columns);
   margin-top: 2.4rem;
 }
+
+/* download */
+.dowload {
+  background-color: var(--off-white-clr);
+}
+.dowload .remove-grid {
+  display: block;
+  padding-top: 0;
+  text-align: center;
+}
+.sparkles {
+  display: inline-block;
+}
+.dowload h2 {
+  font-size: 3.2rem;
+  font-family: var(--main-font-family-medium);
+}
+.dowload .btn-brand {
+  margin-top: 4rem;
+}
+.btn-brand {
+  background-color: var(--brand-clr);
+  color: var(--light-clr);
+}
+.btn-brand:hover {
+  background-color: #8ea1e1;
+}
