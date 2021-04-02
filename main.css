@@ -201,3 +201,23 @@ img {
 .wave-inverted {
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
+/* video-call */
+.video-call {
+  background-color: var(--off-white-clr);
+}
+.video-call .row {
+  padding-bottom: 8rem;
+}
+.video-call .text-group {
+  grid-column: span var(--num-of-grid-columns);
+  margin-top: 0;
+}
+.video-call .text-group p {
+  margin-top: 2.4rem;
+}
+.video-call .grid-image {
+  width: 100%;
+  grid-column: span var(--num-of-grid-columns);
+  margin-top: 2.4rem;
+}
